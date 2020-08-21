@@ -1,0 +1,38 @@
+File "ex7.py", line 2
+    print('Mary had a little lamb.")
+                                   ^
+SyntaxError: EOL while scanning string literal
+
+Mary had a little lamb.
+Traceback (most recent call last):
+  File "ex7.py", line 4, in <module>
+    print("Its fleece was white as [].".format(snow))
+NameError: name 'snow' is not defined
+
+Traceback (most recent call last):
+  File "ex7.py", line 8, in <module>
+    print("." + 10) # what'd that do?
+TypeError: must be str, not int
+
+Traceback (most recent call last):
+  File "ex7.py", line 26, in <module>
+    print(end1 + end2 + end3 + end4 + end5 + end6, ends= ' ') # end=' ' us used to get rid of the \n character. The next print continues on the same line.
+NameError: name 'end6' is not defined
+
+Traceback (most recent call last):
+  File "ex7.py", line 26, in <module>
+    print(end1 + end2 + end3 + end4 + end5 + end6, ends= ' ') # end=' ' us used to get rid of the \n character. The next print continues on the same line.
+TypeError: 'ends' is an invalid keyword argument for this function
+
+Cheese Bend8rger
+
+Its fleece was white as [].
+
+
+
+ex8-errors
+
+Traceback (most recent call last):
+  File "ex8.py", line 8, in <module>
+    "Try your"
+IndexError: tuple index out of range

@@ -1,0 +1,4 @@
+This is a test file 
+It's purpose is to test the copy function in python
+Don't bother about the content of this file.
+It is not all that important

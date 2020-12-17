@@ -1,0 +1,14 @@
+   56  git init
+   
+   57  git add README.md 
+   58  git commit -m "first commit"
+   59  git config --global user.email "steensply@gmail.com"
+   60  git config --global user.name "steensply"
+   61  git commit -m "first commit"
+   62  git remote add origin https://github.com/steensply/lpthw.git
+   63  git push -u origin master
+
+
+   64  git add lpthw/
+   68  git commit -m "second commit"
+   69  git push -u origin master

@@ -36,3 +36,57 @@ Traceback (most recent call last):
   File "ex8.py", line 8, in <module>
     "Try your"
 IndexError: tuple index out of range
+
+
+
+ex-13 errors
+
+Traceback (most recent call last):
+  File "ex13.py", line 6, in <module>
+    script, first, second, third = argv
+ValueError: not enough values to unpack (expected 4, got 1)
+
+ex14 - errors
+
+Traceback (most recent call last):
+  File "ex14.py", line 5, in <module>
+    script, user_name = arworgv
+ValueError: not enough values to unpack (expected 2, got 1)
+
+ex15_errors
+
+Traceback (most recent call last):
+  File "ex15.py", line 5, in <module>
+    script, filename = argv
+ValueError: not enough values to unpack (expected 2, got 1)
+
+## commenting out the arg part of the code execution and running the code without
+the arg gives the error above. 
+Hence removing that part means you would need to pass the filename as an
+argument and also as an input for it to work properly
+
+ex17_errors
+
+ File "<fstring>", line 1
+    (exists(to_file).)
+                     ^
+SyntaxError: unexpected EOF while parsing
+
+
+
+ex23 - errors
+
+ File "ex23.py", line 8
+    print_line(line, encoding, errors):
+                                      ^
+SyntaxError: invalid syntax
+
+ex24 - errors
+
+Traceback (most recent call last):
+  File "ex24.py", line 41, in <module>
+    print('We\'d have {} beans, {} jars, and {} crates.'.format(formula))
+IndexError: tuple index out of range
+
+This is what happens when i remove the * before formula.. It is treated as one argument instead of 3
+
